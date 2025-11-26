@@ -1,12 +1,14 @@
-# Ask user to enter sides of a triangle
-side_a = float(input('Enter side A: '))
-side_b = float(input('Enter side B: '))
-side_c = float(input('Enter side C: '))
+a = 10
+b = 20
 
-# Find half perimeter
-half_perimeter = (side_a + side_b + side_c) / 2
-triangle_area = (half_perimeter * (half_perimeter - side_a) * (half_perimeter - side_b) *
-                 (half_perimeter - side_c)) ** 0.5
-print('Area of a triangle is', triangle_area)
+result = b / a  # returns a float
+print(result)
 
-# end of program
+result = b // 6  # returns an integer
+print(result)
+
+result = b % 6  # 18 + 2
+print(result)
+
+result = b ** a
+print(result)
